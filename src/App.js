@@ -13,11 +13,12 @@ import { GrSend } from 'react-icons/gr';
 
 firebase.initializeApp({
   apiKey: "AIzaSyBJfj9oUqrmo4ie7nK0k_AZjjPCIch4HlM",
-  authDomain: "chat-app-da6a3.firebaseapp.com",
-  projectId: "chat-app-da6a3",
-  storageBucket: "chat-app-da6a3.appspot.com",
-  messagingSenderId: "214839794721",
-  appId: "1:214839794721:web:c48937d2b29d2fbffcd760"
+    authDomain: "chat-app-da6a3.firebaseapp.com",
+    databaseURL: "https://chat-app-da6a3-default-rtdb.firebaseio.com",
+    projectId: "chat-app-da6a3",
+    storageBucket: "chat-app-da6a3.appspot.com",
+    messagingSenderId: "214839794721",
+    appId: "1:214839794721:web:c48937d2b29d2fbffcd760"
 })
 
 const auth = firebase.auth();
